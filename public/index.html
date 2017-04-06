@@ -13,8 +13,10 @@
     <script src="javascripts/index.js"></script>
     <script src="javascripts/lib/modernizr-2.6.2.min.js"></script>
     <script src="javascripts/lib/angular.js"></script>
-    <script src="components/navbar/navbar.js"></script>
-    <script src="components/carousel/component.js"></script>
+
+    <script src="components/homePage/component.js"></script>
+    <script src="components/homePage/menuBar/component.js"></script>
+    <script src="components/homePage/carousel/component.js"></script>
         <!-- Bootstrap CSS -->
     <link href="/stylesheets/lib/bootstrap.min.css" rel="stylesheet">
     <link href="/stylesheets/lib/bootstrap-glyphicons.css" rel="stylesheet">
@@ -23,8 +25,7 @@
 
 <body ng-app="componentExample">
     <span ng-controller="appCtrl">
-<carousel-comp></carousel-comp>
-    <navi-bar>    </navi-bar>
+    <home-page></home-page>
   </span>
 </body>
 <script src="http://code.jquery.com/jquery.js"></script>

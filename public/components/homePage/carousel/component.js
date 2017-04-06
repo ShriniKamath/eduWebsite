@@ -1,5 +1,5 @@
 angular.module('componentExample').component('carouselComp', {
-	templateUrl: 'components/carousel/template.html',
+	templateUrl: 'components/homePage/carousel/template.html',
 	controller: carouselController,
 	controllerAs:'carouselCtrl'
 });
